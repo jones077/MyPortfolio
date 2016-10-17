@@ -1,0 +1,69 @@
+body{
+  background-color: #00B16A;
+  font-family: fantasy;
+}
+.jumbotron {
+  background-image: url("./laptop yellow flower.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:500px;
+  top-margin: 40px;
+  padding: 20%;
+  background-attachment:fixed;
+  background-position: center -238px;}
+
+.jumbotron  h1 {
+  font-family: fantasy;
+    text-align: right;
+    color: black;
+    float: right;
+    margin-right: -220px;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6C7A89;
+    text-align: center;
+    width:100%;
+}
+
+li {
+    float:left;
+    font-family: sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+}
+.ul li{
+    display:inline;
+}
+.ul a{
+    display:inline-block;
+    padding:10px;
+}
+
+.active {
+background-color:#F7CA18;
+}
+
+.row {
+  float:left;
+}
+
+.features p {
+  text-align: right;
+  font-size: 40px;
+  color: black;
+  border: 80px;
+}
